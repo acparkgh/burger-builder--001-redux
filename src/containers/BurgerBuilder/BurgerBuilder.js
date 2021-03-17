@@ -30,6 +30,8 @@ class BurgerBuilder extends Component {
         error: false
     }
 
+    // baseURL: 'https://react-my-burger-14e2b-default-rtdb.firebaseio.com/'
+
     componentDidMount () {
         console.log(this.props);
         // axios.get( 'https://react-my-burger.firebaseio.com/ingredients.json' )
