@@ -12,7 +12,7 @@ import registerServiceWorker from './registerServiceWorker';
 import burgerBuilderReducer from './store/reducers/burgerBuild';
 
 const store = createStore(burgerBuilderReducer, 
-                          composeWithDevTools( applyMiddleware() ) 
+                          composeWithDevTools( applyMiddleware(thunk) ) 
                          );
 
 const app = (
